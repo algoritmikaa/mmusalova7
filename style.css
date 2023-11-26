@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(216, 42, 71),rgb(238, 238, 101),rgb(168, 221, 241));
+    padding: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-size: 50px;
+    font-family: gabriola;
+}
+
+.link-nav {
+    color: white;
+    margin-left: 25px;
+    font-size: 18px;
+    background-color: rgb(216, 42, 71);
+    border-radius:5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: buxton sketch;
+    position: absolute;
+    top: 160px;
+    box-shadow: 5px 5px 3px 0px rgb(187, 162, 162);
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(124, 196, 224);
+    text-shadow: 5px 7px 5px rgb(211, 199, 199);
+}
+
+ul {
+    font-size: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(168, 221, 241),white);
+}
+
+footer a {
+    margin-left: 10px;
+}
+
+.link-gav {
+    position: absolute;
+    left:125px;
+    color: white;
+    margin-left: 25px;
+    font-size: 18px;
+    background-color: rgb(216, 42, 71);
+    border-radius:5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: buxton sketch;
+    box-shadow: 5px 5px 3px 0px rgb(187, 162, 162);
+}
+
+.link-gav:hover {
+    color: rgb(216, 42, 71);
+    background-color: white;
+    transition: all 0.5s linear;
+}
+
+.link-nav:hover {
+    color: rgb(216, 42, 71);
+    background-color: white;
+    transition: all 0.5s linear;
+}
+
+header a:hover {
+    text-shadow: 10px 0px 3px rgb(131, 37, 37);
+    transition: all 0.5s ease-in-out;
+}
